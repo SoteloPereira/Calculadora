@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="CalculatorStyle.css">
+	<title>Calculadora</title>
+</head>
+<body>	
+	<div class="contenedor-principal">
+		<header class="brand">SOTELO JS DEV</header>
+		<div class="pantalla">
+			<div class="contenedor-resultado">
+				<p class="resultado"></p>
+			</div>
+			<div class="contenedor-valor">
+				<p id="valor"></p>
+			</div>
+		</div>
+		<div class="operadores">
+			<button class="btn operacion suma" value="+">+</button>
+			<button class="btn operacion resta" value="-">-</button>
+			<button class="btn operacion division" value="/">/</button>
+			<button class="btn operacion multiplicacion" value="*">*</button>
+			<button class="btn operacion raiz" value="r">√</button>
+			<button class="btn operacion porcentaje" value="p">%</button>
+			<button class="btn operacion borrar" value="b">⌫</button>
+			<button class="btn borrarTodo">C</button>
+			<div class="numeros">
+				<button class="btn numero siete" value="7">7</button>
+				<button class="btn numero ocho" value="8">8</button>
+				<button class="btn numero nueve" value="9">9</button>
+				<button class="btn numero cuatro" value="4">4</button>
+				<button class="btn numero cinco" value="5">5</button>
+				<button class="btn numero seis" value="6">6</button>
+				<button class="btn numero uno" value="1">1</button>
+				<button class="btn numero dos" value="2">2</button>
+				<button class="btn numero tres" value="3">3</button>
+				<button class="btn numero punto" value=".">.</button>
+				<button class="btn numero cero" value="0">0</button>
+				<button class="btn igual">=</button>
+			</div>
+		</div>
+	</div>
+	<script src="calculator.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+body{
+	margin: 5% 0;
+	background: linear-gradient(to left bottom, #e1e1e1, #00446c);
+	background-repeat: no-repeat;
+	/* background-image: url('img/backgroundCalc.jpg'); */
+	object-fit: cover;
+	height: 500px;
+	width: 100%;
+}
+.contenedor-principal{
+	max-width: 300px;
+	min-width: 280px;
+	margin: auto;
+	height: 90%;
+	box-shadow: 10px 10px 10px black, 12px 12px 10px #388;
+	border: 3px #aaa solid;
+}
+.brand{
+	background: #112;
+	color: #fff;
+	text-align: center;
+	padding: 15px 0 0 ;
+	height: 10%;
+	font-weight: 600;
+	letter-spacing: 7px;
+}
+.pantalla{
+	background: #ddf;
+}
+.contenedor-resultado{
+	border-bottom: 1px solid grey;
+	text-align: right;
+	height: 30px;
+	padding: 5px 10px 5px 0;
+}
+.resultado{
+	margin: 0 ;
+	font-size: 25px;
+}
+.contenedor-valor{
+	height: 30px;
+	padding: 5px 10px 5px 0;
+	text-align: right;
+}
+#valor{
+	margin: 0;
+	font-size: 30px;
+}
+.operadores{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	width: 100%;
+	height: 70%;
+}
+.multiplicacion{
+	grid-column: 4 / 5;
+	grid-row: 2 / 3;
+}
+.division{
+	grid-column: 4 / 5;
+	grid-row: 3 / 4;
+}
+.resta{
+	grid-column: 4 / 5;
+	grid-row: 4 / 5;
+}
+.suma{
+	grid-column: 4/5;
+	grid-row: 5 / 6;
+}
+.numeros{
+	grid-column: 1 / 4 ;
+	grid-row: 2 / 6;
+}
+
+ .numeros{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	background: #222;
+} 
+.btn{
+	background: #113;
+	color: #eee;
+	font-weight: 600;
+	border: .5px solid #333;
+	cursor: pointer;
+	font-size: 26px;
+	transition: all .5s ease;
+}
+.btn:hover{
+	background: #100;
+	color: #aaa;
+}
+.raiz, .porcentaje{
+	pointer-events: none;
+}
