@@ -12,9 +12,9 @@ let resultado = 0
 let valores = []
 
 borrarTodo.addEventListener("click",(e) => {
-	valor.innerHTML = "";
-	resultado.innerHTML = ""
-	primeraOp = false
+	valor.innerHTML = ""
+	operacionPrevia.innerHTML = ""
+	primeraOp = true
 })
 //Boton que borra el ultimo digito
 borra.addEventListener("click", (e) => {
